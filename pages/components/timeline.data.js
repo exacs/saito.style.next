@@ -63,9 +63,16 @@ export default [
     start: new Date('2016-10'),
     end: new Date('2016-10'),
     place: 'Madrid, Spain',
-    title: 'Volunteer in Visualizar\'16',
+    title: "Volunteer in Visualizar'16",
     company: 'Medialab Prado + Common Action Forum',
-    description: <div>Volunteer in Visualizar'16, a workshop organized by Medialab Prado around the topic "Open Cities". Our team has developed Liqen, a project that seeks to identify and report environmental micro-conflicts around the world, mixing machine sensor data and human sensoring</div>
+    description: (
+      <div>
+        Volunteer in Visualizar'16, a workshop organized by Medialab Prado
+        around the topic "Open Cities". Our team has developed Liqen, a project
+        that seeks to identify and report environmental micro-conflicts around
+        the world, mixing machine sensor data and human sensoring
+      </div>
+    )
   },
   {
     start: new Date('2016-03'),
@@ -86,8 +93,6 @@ export default [
     place: 'Madrid, Spain',
     title: 'Web developer and I.T. management',
     company: 'Departamento de Proyectos Arquitectónicos',
-    description: (
-      <div>Continue developing the custom-made Wordpress theme</div>
-    )
+    description: <div>Continue developing the custom-made Wordpress theme</div>
   }
 ];

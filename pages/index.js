@@ -1,3 +1,13 @@
 import React from 'react';
+import styled from 'styled-components';
+import Header from './header';
 
-export default () => <p>Welcome to Next.js!</p>;
+const Container = styled.main`
+  margin: auto;
+`;
+
+export default () => (
+  <Container>
+    <Header />
+  </Container>
+);

@@ -32,28 +32,34 @@ const Link = styled.a`
   text-decoration: underline;
 `;
 
-
-export default () =>
+export default () => (
   <Container>
-    <Part>Aim to increase awareness about global issues making tools to improve the impact of data-based story-telling</Part>
+    <Part>
+      Aim to increase awareness about global issues making tools to improve the
+      impact of data-based story-telling
+    </Part>
     <RightPart>
       <div>Carlos Saito Murata</div>
       <div>Madrid + Uppsala</div>
       <div>
-        <Link href='mailto:carlos@saito.style'>mailto:carlos@saito.style</Link>
+        <Link href="mailto:carlos@saito.style">mailto:carlos@saito.style</Link>
       </div>
       <div>
-        <Link href='http://saito.style'>http://saito.style</Link>
+        <Link href="http://saito.style">http://saito.style</Link>
       </div>
       <div>
-        <Link href='https://twitter.com/saito_style'>twitter.com/saito_style</Link>
+        <Link href="https://twitter.com/saito_style">
+          twitter.com/saito_style
+        </Link>
       </div>
       <div>
-        <Link href='https://medium.com/@saito_style'>medium.com/@saito_style</Link>
+        <Link href="https://medium.com/@saito_style">
+          medium.com/@saito_style
+        </Link>
       </div>
       <div>
-        <Link href='https://github.com/exacs'>github.com/exacs</Link>
+        <Link href="https://github.com/exacs">github.com/exacs</Link>
       </div>
     </RightPart>
   </Container>
-;
+);

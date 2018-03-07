@@ -12,17 +12,23 @@ const Container = styled.div`
 
 const Part = styled.div`
   font-family: Georgia;
-  padding: 0 24px 24px 24px;
+  padding-bottom: 24px;
   max-width: 320px;
-  margin: auto;
+
   @media all and (min-width: 640px) {
     width: 320px;
-    margin: 0;
+  }
+`;
+
+const LeftPart = Part.extend`
+  @media all and (min-width: 640px) {
+    padding-right: 16px;
   }
 `;
 
 const RightPart = Part.extend`
   @media all and (min-width: 640px) {
+    padding-left: 16px;
     text-align: right;
   }
 `;
@@ -34,10 +40,10 @@ const Link = styled.a`
 
 export default () => (
   <Container>
-    <Part>
+    <LeftPart>
       Aim to increase awareness about global issues making tools to improve the
       impact of data-based story-telling
-    </Part>
+    </LeftPart>
     <RightPart>
       <div>Carlos Saito Murata</div>
       <div>Madrid + Uppsala</div>

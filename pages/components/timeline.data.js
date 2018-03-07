@@ -2,7 +2,7 @@ import React from 'react';
 
 export default [
   {
-    start: new Date('2017-07'),
+    start: new Date('2017-09'),
     place: 'Uppsala, Sweden',
     title: 'Fika host',
     company: 'Östgöta Nation',
@@ -60,8 +60,8 @@ export default [
     )
   },
   {
-    start: new Date('2016-10'),
-    end: new Date('2016-10'),
+    start: new Date('2016-10-12'),
+    end: new Date('2016-10-26'),
     place: 'Madrid, Spain',
     title: "Volunteer in Visualizar'16",
     company: 'Medialab Prado + Common Action Forum',

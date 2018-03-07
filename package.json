@@ -1,5 +1,10 @@
 {
   "name": "saito.style",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "version": "1.0.0",
   "description": "My personal website",
   "main": "index.js",

@@ -2,7 +2,7 @@
   "name": "saito.style",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export",
+    "build": "next build && next export && touch out/.nojekyll",
     "start": "next start",
     "prettier": "prettier --single-quote --write \"pages/**/*.js\""
   },

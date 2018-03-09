@@ -2,7 +2,7 @@
   "name": "saito.style",
   "scripts": {
     "dev": "next",
-    "build": "next build && next export && touch out/.nojekyll",
+    "build": "next build && next export && touch out/.nojekyll && echo saito.style > out/CNAME",
     "start": "next start",
     "prettier": "prettier --single-quote --write \"pages/**/*.js\""
   },
